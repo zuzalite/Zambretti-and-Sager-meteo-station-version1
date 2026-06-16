@@ -2,6 +2,11 @@
 
 # Mikrokontrolleres Meteorológiai Állomás (Zambretti & Sager Előrejelzéssel)
 
+
+Use with this tuning program:
+https://github.com/zuzalite/Thingspeak_weather_tuner_Version1
+
+
 Ez a projekt egy ESP32/Pico W alapú, OLED kijelzővel (SSD1306) ellátott intelligens időjárás állomás. A rendszer nemcsak a helyi szenzoradatokat (hőmérséklet, légnyomás) gyűjti és jeleníti meg a ThingSpeak API-n keresztül, hanem az Open-Meteo API szélirány-adatait, valamint visszamenőleges (6 és 12 órás) légnyomás-trendeket felhasználva komplex meteorológiai előrejelzéseket (Zambretti és Sager algoritmusok) készít, speciálisan a helyi viszonyokra (pl. Vérmező) finomhangolva.
 
 ---
