@@ -7,8 +7,8 @@ from collections import deque
 # --- FELHASZNÁLÓI BEÁLLÍTÁSOK (KONFIGURÁCIÓ) ---
 # ==============================================================================
 # HÁLÓZATI ÉS API BEÁLLÍTÁSOK
-CHANNEL_NUMBER = "2772222"
-READ_API_KEY = "8TBMASMCC73I3GGV"
+CHANNEL_NUMBER = "xxxxxxxxx"
+READ_API_KEY = "xxxxxxxxxxx"
 
 # METEOROLÓGIAI KÜSZÖBÉRTÉKEK (A TRÉNING ALAPJÁN FINOMHANGOLHATÓ)
 STORM_THRESHOLD         = -1.8    # Viharjelzés küszöbérték (hPa / 5 perc)
