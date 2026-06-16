@@ -65,6 +65,9 @@ A program egy végtelen ciklusban (`loop`) futó állapotgép, amely időzítők
 
 A kód elején található konstansok szabadon módosíthatók a helyi mikroklíma további finomhangolásához:
 * `STORM_THRESHOLD` / `BAD_WEATHER_THRESHOLD`: A nyomásesés sebességének riasztási határai.
+* `PRESSURE_EXTREME_HIGH` / `PRESSURE_EXTREME_LOW`: Az adott tengerszint feletti magasságra jellemző extrém nyomásértékek.
+* `WIND_MULTIPLIER`: Speciális szorzó, amely a helyi (pl. völgyekben vagy domboldalakon jelentkező) szélcsatorna-hatásokat kompenzálja.
+
 
 * ---
 
@@ -82,6 +85,3 @@ Connect your OLED display to the Pico W using the following pinout configuration
 | **SCL** | GP5 | Pin 7 | I2C Clock Line |
 
 ---
-
-* `PRESSURE_EXTREME_HIGH` / `PRESSURE_EXTREME_LOW`: Az adott tengerszint feletti magasságra jellemző extrém nyomásértékek.
-* `WIND_MULTIPLIER`: Speciális szorzó, amely a helyi (pl. völgyekben vagy domboldalakon jelentkező) szélcsatorna-hatásokat kompenzálja.
