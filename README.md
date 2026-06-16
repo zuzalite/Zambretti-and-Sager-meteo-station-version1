@@ -65,5 +65,23 @@ A program egy végtelen ciklusban (`loop`) futó állapotgép, amely időzítők
 
 A kód elején található konstansok szabadon módosíthatók a helyi mikroklíma további finomhangolásához:
 * `STORM_THRESHOLD` / `BAD_WEATHER_THRESHOLD`: A nyomásesés sebességének riasztási határai.
+
+* ---
+
+## Hardware Setup & Wiring
+
+The system uses an **SSD1306 128x64 OLED display** communicating via the **I2C protocol**. By default, the Arduino wire library on the Raspberry Pi Pico W initializes the default `I2C0` bus.
+
+Connect your OLED display to the Pico W using the following pinout configuration:
+
+| OLED Pin | Pico W Pin Name | Pico W Physical Pin | Description |
+| :--- | :--- | :--- | :--- |
+| **VCC** | 3V3(OUT) | Pin 36 | 3.3V Power Supply |
+| **GND** | GND | Pin 38 (or any GND) | Ground |
+| **SDA** | GP4 | Pin 6 | I2C Data Line |
+| **SCL** | GP5 | Pin 7 | I2C Clock Line |
+
+---
+
 * `PRESSURE_EXTREME_HIGH` / `PRESSURE_EXTREME_LOW`: Az adott tengerszint feletti magasságra jellemző extrém nyomásértékek.
 * `WIND_MULTIPLIER`: Speciális szorzó, amely a helyi (pl. völgyekben vagy domboldalakon jelentkező) szélcsatorna-hatásokat kompenzálja.
