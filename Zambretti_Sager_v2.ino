@@ -11,12 +11,12 @@
 // --- FELHASZNÁLÓI BEÁLLÍTÁSOK (KONFIGURÁCIÓ) ---
 // ==============================================================================
 // WI-FI HÁLÓZATI BEÁLLÍTÁSOK
-const char* WIFI_SSID     = "UPC2044170";
-const char* WIFI_PASSWORD = "Qf7wrkuKurdu";
+const char* WIFI_SSID     = "xxxxxxxxxxxx";
+const char* WIFI_PASSWORD = "xxxxxxxxxxxx";
 
 // THINGSPEAK BEÁLLÍTÁSOK
-unsigned long myChannelNumber = 2772222;
-const char* myReadAPIKey      = "8TBMASMCC73I3GGV";
+unsigned long myChannelNumber = xxxxxxxxxx;
+const char* myReadAPIKey      = "xxxxxxxxxxx";
 
 // METEOROLÓGIAI KÜSZÖBÉRTÉKEK (A TRÉNING ALAPJÁN FINOMHANGOLHATÓ)
 const float STORM_THRESHOLD         = -1.8;   // Viharjelzés küszöbérték (hPa / 5 perc) -> pl. -4.20
